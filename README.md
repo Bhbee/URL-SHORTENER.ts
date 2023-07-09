@@ -22,50 +22,15 @@ This application, a URL Shortener project aims to achieve an efficient URL short
 ## Get a copy
 1. Clone this repo
 ```sh
-git clone https://github.com/Unique-Red/url_shortner.git
+git clone https://github.com/Bhbee/URL-SHORTENER.ts.git 
 ```
 2. Open the directory
 ```sh
-cd url_shortner
+cd URL-SHORTENER.ts
 ```
-3. Create Virtual Environment
+3. Install project packages
 ```sh
-python -m venv <your-venv-name>
+npm install
 ```
-4. Activate virtual environment on CMD or Powershell
-```sh
-<your-venv-name>\Scripts\activate.bat
-```
-On gitbash terminal
-```sh
-source <your-venv-name>/Scripts/activate.csh
-```
-5. Install project packages
-```sh
-pip install -r requirements.txt
-```
-6. Set environment variable
-```sh
-set FLASK_APP=app.py
-```
-On gitbash terminal
-```sh
-export FLASK_APP=run.py
-```
-7. Create database
-```sh
-flask shell
-```
-```sh
-db.create_all()
-quit()
-```
-8. Run program
-```sh
-python app.py
-```
+
 <hr>
-
-
-<br/>
-Live link: <a href="https://www.redr.site/">RedRoute</a>
